@@ -1,0 +1,19 @@
+.row{display:block;width:970px;margin:0 -5px;*zoom:1}.row:before,.row:after{content:"";display:table}.row:after{clear:both}.dynamic-row{display:block;width:100%;margin:0;padding:0;*zoom:1}.dynamic-row:before,.dynamic-row:after{content:"";display:table}.dynamic-row:after{clear:both}.dynamic-row>[class*="column"]:first-child{margin-left:0}@charset "UTF-8";
+
+@font-face{font-family:"Avenir Next";src:url(../fonts/AvenirNextDemi.eot?#iefix);
+           src:url(../fonts/AvenirNextDemi.eot?#iefix) format("eot"),url(../fonts/AvenirNextDemi.woff) format("woff"),url(../fonts/AvenirNextDemi.svg#440ef6e1-120f-4c11-9325-fc1d04d9d9a0) format("svg"),local("Helvetica Neue"),local("Helvetica"),local("Arial"),local("sans-serif")}
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black'), url('AvenirLTStd-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff');
+}

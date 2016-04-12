@@ -1,0 +1,76 @@
+.cb-slideshow,
+.cb-slideshow:after {
+
+    height: 520px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.cb-slideshow li{
+  /*transition:.1s ease-in-out;*/
+}
+
+.cb-slideshow li img {
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .cb-slideshow,
+    .cb-slideshow:after {
+
+        height: 670px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    .cb-slideshow li img {
+        width: 100%;
+        height: 670px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+    }
+
+
+}
+.cb-slideshow li div {
+    z-index: 1000;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+
+}
+.cb-slideshow li div h3 {
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 240px;
+    padding: 0;
+    line-height: 200px;
+}
+
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li img{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1140px) {
+    .cb-slideshow li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) {
+    .cb-slideshow li div h3 { font-size: 80px }
+}
